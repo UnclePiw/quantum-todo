@@ -2,7 +2,7 @@
   "name": "quantum-todo",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "scripts": { "dev": "next dev", "build": "next build", "build:pages": "node scripts/build-pages.mjs", "start": "next start" },
   "dependencies": {
     "framer-motion": "^11.11.0",
     "lucide-react": "^0.453.0",
